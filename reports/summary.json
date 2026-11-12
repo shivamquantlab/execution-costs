@@ -1,0 +1,52 @@
+{
+  "data_provenance": "synthetic scenario inputs; no observed trades or market data",
+  "cost_scope": "one-way estimated costs; no realized slippage or opportunity cost",
+  "synthetic_reference_price": 50.0,
+  "synthetic_adv_dollars": 2000000.0,
+  "assumed_full_spread_bps": 8.0,
+  "assumed_commission_per_share": 0.005,
+  "assumed_impact_coefficient_bps": 20.0,
+  "maximum_adv_participation": 0.1,
+  "orders": [
+    {
+      "notional": 10000.0,
+      "spread_cost": 4.0,
+      "commission": 1.0,
+      "market_impact": 1.4142135623730947,
+      "total_cost": 6.414213562373095,
+      "total_bps": 6.414213562373095
+    },
+    {
+      "notional": 25000.0,
+      "spread_cost": 10.0,
+      "commission": 2.5,
+      "market_impact": 5.5901699437494745,
+      "total_cost": 18.090169943749473,
+      "total_bps": 7.236067977499789
+    },
+    {
+      "notional": 50000.0,
+      "spread_cost": 20.0,
+      "commission": 5.0,
+      "market_impact": 15.811388300841896,
+      "total_cost": 40.8113883008419,
+      "total_bps": 8.16227766016838
+    },
+    {
+      "notional": 100000.0,
+      "spread_cost": 40.0,
+      "commission": 10.0,
+      "market_impact": 44.721359549995796,
+      "total_cost": 94.7213595499958,
+      "total_bps": 9.47213595499958
+    },
+    {
+      "notional": 150000.0,
+      "spread_cost": 60.0,
+      "commission": 15.0,
+      "market_impact": 82.1583836257749,
+      "total_cost": 157.1583836257749,
+      "total_bps": 10.47722557505166
+    }
+  ]
+}
